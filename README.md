@@ -7,8 +7,8 @@
 ## Check the project webpage:
 
 You can test the app from [here](https://fikretyilmaz.github.io/NotePadApp/):
-\*\*This is a NotepadApp which allows you to take note.
-I used the basic [Youtube][https://www.youtube.com/] webpage style and change that with mine. I studied with [themoviedb][https://api.themoviedb.org/3] API to get tag name.
+**This is a NotepadApp which allows you to take note.
+I used the basic [Youtube][https://www.youtube.com/] webpage style and change that with mine. I studied with [themoviedb][https://api.themoviedb.org/3] API to get tag name.**
 
 ### Must have features:
 
