@@ -1,13 +1,13 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Indie Flower', cursive;
+  /* Roboto, Arial, Helvetica, sans-serif; */
 }
 
 body {
   margin: 0;
   background: url('https://www.memonotepad.com/img/wood.png')
 } 
-
 
 .note-section {
   display: grid;
@@ -24,15 +24,14 @@ body {
   font-weight: bold;
 }
 
-
-
 .note-container {
 display: flex;
 flex-direction: column;
 padding: 16px 0px;
 border: 4px solid #33322E;
-box-shadow: 12px 12px 0px #33322E;
+box-shadow: 10px 10px 0px #3f3e39;
 border-radius: 24px;
+margin: 10px;
 
 }
 .text-input {
@@ -60,6 +59,7 @@ font-weight: bold;
 .content {
   /* position: relative; */
   display: flex;
+  
 }
 
 .content-text {
@@ -67,13 +67,14 @@ font-weight: bold;
   height: 100%;
   min-width: 250px;
   min-height: 150px;
-  /* background-color: #AAA; */
 }
 
 .note-title-section {
   display: flex;
-  align-items: flex-start;
   margin-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  
 }
 
 .title-details {
@@ -87,6 +88,7 @@ font-weight: bold;
   margin-bottom: .5rem;
   text-decoration: none;
   color: black;
+  
 }
 
 .note-section-title {
@@ -140,6 +142,19 @@ font-weight: bold;
   display: flex;
   overflow-x: scroll;
 
+}.category-section::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+  height:8px;  
+}
+
+.category-section::-webkit-scrollbar-track {
+  background: #E7E7E7;        /* color of the tracking area */
+}
+
+.category-section::-webkit-scrollbar-thumb {
+  background-color: black;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  
 }
 #requiredField{
   font-family: 'Indie Flower', cursive;
@@ -164,7 +179,7 @@ font-weight: bold;
   background-color: #DDD;
 }
 
-.category.active {
+.active {
   background-color: #606060;
   color: white;
   border-color: #EEE;
@@ -181,11 +196,11 @@ font-weight: bold;
   padding: 1rem;
 }
 
-#icon-text {
-  height: 20px;
+/* #icon-text {
+   height: 20px; 
   text-decoration: none;
   color: #555;
-}
+} */
 #logo-img{
   width: 40px;
   height: 40px;
@@ -228,16 +243,19 @@ font-weight: bold;
   align-items: center;
   gap: 1.5rem;
 }
-#home, #about, #login{
+#home, #about, #login,#icon-text {
   text-decoration: none;
   color: #555;
 }
-
+#home:hover,#about:hover,#login:hover,#icon-text:hover{
+  color: #000000;
+}
 .menu-channel-icon {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-color: #AAA;
+  
 }
 .hide{
   display: none;
