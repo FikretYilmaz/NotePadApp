@@ -152,7 +152,7 @@ function deleteNote(noteContainer) {
   deleteButton.className = 'category';
   deleteButton.title = 'delete';
   const buttonIcon = document.createElement('img');
-  buttonIcon.src = '../img/deleteIcon.svg';
+  buttonIcon.src = 'img/deleteIcon.svg';
   deleteButton.appendChild(buttonIcon);
   noteContainer.appendChild(deleteButton);
   deleteButton.addEventListener('click', () => {
